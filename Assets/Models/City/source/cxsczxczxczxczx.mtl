@@ -1,0 +1,39 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.24787357)
+
+newmtl base
+kd 0.8 0.8 0.8
+ka 1 1 1
+ks 0.5 0.5 0.5
+ke 0 0 0
+d 1
+Ns 894.118
+illum 2
+
+newmtl buildings.001
+kd 0.8 0.8 0.8
+ka 1 1 1
+ks 0.5 0.5 0.5
+ke 0 0 0
+d 1
+Ns 894.118
+illum 2
+
+newmtl buildings.002
+kd 0.8 0.8 0.8
+ka 1 1 1
+ks 0.5 0.5 0.5
+ke 0 0 0
+d 1
+Ns 894.118
+illum 2
+
+newmtl buildings.003
+kd 0.8 0.8 0.8
+ka 1 1 1
+ks 0.5 0.5 0.5
+ke 0 0 0
+d 1
+Ns 894.118
+illum 2
+
