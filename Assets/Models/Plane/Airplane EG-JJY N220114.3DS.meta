@@ -3,7 +3,42 @@ guid: 13ef523bf19b5a54aac3a3b5a7cbd1b7
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArchM73_08
+    second: {fileID: 2100000, guid: 5af1d65e15154ec468e7368087f8d2f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArchM73_081
+    second: {fileID: 2100000, guid: 2b7f21b3f5989b64e8fa4099ccad7efb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArchM73_082
+    second: {fileID: 2100000, guid: cff07371685a0854d97e5cfe7c4ac7d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArchM73_083
+    second: {fileID: 2100000, guid: 7dc50ff5e123f4749b52237d2167e378, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArchM73_084
+    second: {fileID: 2100000, guid: 239c080b303f4cd4f83a35dae5763b54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArchM73_085
+    second: {fileID: 2100000, guid: c852c533a76f4b042936deb5763fc4b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramiks yellow
+    second: {fileID: 2100000, guid: fc8c1fcdec145a34b9b52a79d52a9ee8, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -34,7 +69,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.04
+    globalScale: 0.06
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -80,7 +115,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.04
+    globalScale: 0.06
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

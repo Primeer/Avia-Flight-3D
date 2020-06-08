@@ -8,12 +8,14 @@ public class Flight : MonoBehaviour
 	private float height => GameManager.Instance.flightHeight;
 	private Task task;
 	private Vector3 destination;
+	private float radius;
 	private TraceEffect trace;
 
 	public void Init(Task t)
 	{
 		task = t;
 
+		radius = task.destinationCity.transform.position.magnitude;
 		SetPosition(task.originCity);
 
 		trace = GetComponent<TraceEffect>();
@@ -23,7 +25,7 @@ public class Flight : MonoBehaviour
     void Update()
     {
 		destination = task.destinationCity.transform.position + task.destinationCity.transform.up * height;
-		Vector3 newPosition = SphereGeometry.MoveTowards(transform.position, destination, Time.deltaTime * speed, GameManager.Instance.radius + height);
+		Vector3 newPosition = SphereGeometry.MoveTowards(transform.position, destination, Time.deltaTime * speed, radius + height);
 		transform.rotation = Quaternion.LookRotation(newPosition - transform.position, transform.position);
 		transform.position = newPosition;
 
@@ -38,6 +40,7 @@ public class Flight : MonoBehaviour
 		transform.parent = city.transform.parent;
 		transform.position = city.transform.position;
 		transform.position += city.transform.up * height;
+		transform.rotation = Quaternion.LookRotation(newPosition - transform.position, transform.position);
 	}
 
 	private void FinishFlight()
